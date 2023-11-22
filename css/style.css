@@ -1,19 +1,21 @@
-body {
-    width: 1250px;
-    height: 700px;
-}
-
 .inner {
-    width: 100%;
+    margin-top: 1.8em;
+    font-size: 1vw;
+    width: 100vw;
     display: flex;
     color: #00277E;
     justify-content: space-between;
 }
 
+.header__right {
+    font-size: 150%;
+}
+
 .header__left {
     width: 20em;
-    margin-top: 1.8em;
     list-style: none;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .header__left--list {
@@ -27,26 +29,27 @@ a {
 }
 
 .main__img {
-    display: inline-block;
-    position: relative;
-    top: 6em;
-    left: 38em;
+    margin-top: 5%;
+    text-align: right;
 }
 
 .main__img img {
-    width: 625px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
 }
 
 .main__title {
-    font-size: 3em;
+    margin-top: -12%;
+}
+
+.main__title--logo {
+    width: 20%;
+    font-size: 3vw;
     font-weight: lighter;
-    margin: -1.5em 0 -0.1em -0.1em;
 }
 
 .main__box {
-    width: 59em;
-    height: 12em;
-    margin: -1em 0 20px -0.5em;
+    width: 78vw;
+    height: 15vh;
     background: #00277E;
 }
