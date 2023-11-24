@@ -50,6 +50,6 @@ a {
 
 .main__box {
     width: 78vw;
-    height: 15vh;
+    aspect-ratio: 9/2;
     background: #00277E;
 }
